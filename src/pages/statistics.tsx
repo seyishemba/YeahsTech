@@ -14,7 +14,7 @@ export default function Statistics({
 }: InferGetStaticPropsType<typeof getStaticProps>): JSX.Element {
   return (
     <main className='grid min-h-screen content-start gap-6'>
-      <SEO title='Statistics' description='A statistics page by Risal Amin.' />
+      <SEO title='Statistics' description='A statistics page by Yeahstech Innovations.' />
       <section className='grid gap-2'>
         <motion.h1
           className='text-3xl font-bold md:text-5xl'

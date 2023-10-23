@@ -40,6 +40,7 @@ export function Header(): JSX.Element {
           </nav>
           <ThemeSwitch />
         </div>
+
       </header>
     </>
   );
@@ -48,8 +49,8 @@ export function Header(): JSX.Element {
 const navLinks = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
+  { name: 'Our Services', href: '/services' },
   { name: 'Contact', href: '/contact' },
-  { name: 'Blog', href: '/blog' },
   
   // { name: 'Projects', href: '/projects' },
   // { name: 'Guestbook', href: '/guestbook' },

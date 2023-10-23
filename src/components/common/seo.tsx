@@ -46,7 +46,7 @@ export function SEO({
   const { colorScheme, themeColor } = systemTheme[+isDarkMode];
 
   const ogTitle = `${title} | ${
-    isHomepage ? 'Fullstack Developer' : 'Risal Amin'
+    isHomepage ? 'Fullstack Developer' : 'Yeahstech Innovations'
   }`;
 
   const ogImageUrl = `${PUBLIC_URL}/api/og?${ogImageQuery.toString()}`;
@@ -60,7 +60,7 @@ export function SEO({
       <meta name='keywords' content={tags} />
       <meta name='color-scheme' content={colorScheme} />
       <meta name='theme-color' content={themeColor} />
-      <meta name='author' content='Risal Amin' />
+      <meta name='author' content='Yeahstech Innovations' />
       <meta name='generator' content='Next.js' />
       <meta name='twitter:title' content={ogTitle} />
       <meta name='twitter:description' content={description} />
@@ -84,7 +84,7 @@ export function SEO({
         <>
           <meta property='og:type' content='article' />
           <meta property='og:section' content='Programming' />
-          <meta property='article:author' content='Risal Amin' />
+          <meta property='article:author' content='Yeahstech Innovations' />
           <meta property='article:published_time' content={publishedAt} />
           {tags
             ?.split(',')

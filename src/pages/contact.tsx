@@ -29,8 +29,28 @@ const [email, setEmail] = useState('');
   };
 
   return (
-    <main className='layout min-h-screen'>
+    <main>
       <SEO
+        title='Contact us'
+        description='Yeahstech Innovations | Get to know and work with us.' />
+      <div className='d-flex' style={{'justifyContent': 'center', 'display': 'flex'}}>
+        <button
+          type="submit"
+          className="bg-light text-white font-bold px-4 py-2 rounded"
+        >
+          090 4639 7036
+        </button>
+        <button
+          type="submit"
+          className="bg-light text-white font-bold px-4 py-2 rounded"
+        >
+          Live Chat
+        </button>
+
+      </div>
+
+    {/* <main className='layout min-h-screen'> */}
+      {/* <SEO
         title='Contact us'
         description='Yeahstech Innovations | Get to know and work with us.' />
       <section className='grid gap-2'>
@@ -53,7 +73,7 @@ const [email, setEmail] = useState('');
   {...setTransition({ delayIn: 0.2 })}
 >
   {/* Existing content here */}
-  <form onSubmit={handleSubmit}>
+  {/* <form onSubmit={handleSubmit}>
     <div className="mb-4">
       <label htmlFor="name" className="block text-xl font-bold md:text-2xl">
         Name
@@ -99,10 +119,10 @@ const [email, setEmail] = useState('');
     >
       Submit
     </button>
-  </form>
-</motion.article>
+  </form> */}
+{/* </motion.article> */}
 
-      </section>
+      {/* </section> */} 
     
     </main>
   );

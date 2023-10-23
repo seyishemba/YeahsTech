@@ -65,7 +65,7 @@ export function ContentLayout({
       <section className='mt-8 grid gap-2'>
         <h1 className='text-2xl font-bold md:text-4xl'>{title}</h1>
         <p className='text-sm text-gray-600 dark:text-gray-300'>
-          Written on {formatDate(publishedAt)} by Risal Amin
+          Written on {formatDate(publishedAt)} by Yeahstech Innovations
         </p>
         {lastUpdatedAt && (
           <div className='flex items-center gap-2 text-sm text-gray-700 dark:text-gray-200'>

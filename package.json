@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "sort-imports": "eslint --fix .",
     "type-check": "tsc --noEmit",
@@ -35,6 +36,9 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
     "swr": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=18.18.0 <19.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",

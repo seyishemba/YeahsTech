@@ -22,7 +22,7 @@ export default async function handler(
   const article = searchParams.get('article');
   const description = searchParams.get('description');
 
-  const isHomepage = title === 'Risal Amin';
+  const isHomepage = title === 'Yeahstech Innovations';
 
   return new ImageResponse(
     (
@@ -47,7 +47,7 @@ export default async function handler(
                 />
                 <div tw='ml-4 flex flex-col'>
                   {/* Originally semibold */}
-                  <p tw='-mb-4 text-2xl font-medium'>Risal Amin</p>
+                  <p tw='-mb-4 text-2xl font-medium'>Yeahstech Innovations</p>
                   <p tw='text-lg font-medium text-gray-400'>@ccrsxx</p>
                 </div>
               </div>
@@ -67,7 +67,7 @@ export default async function handler(
               alt="risalamin.com's logo"
             />
             <h2 style={gradientTitleStyles} tw='pb-1 text-6xl'>
-              {isHomepage ? 'Risal Amin' : title}
+              {isHomepage ? 'Yeahstech Innovations' : title}
             </h2>
             {/* Originally semibold */}
             {!isHomepage && (
